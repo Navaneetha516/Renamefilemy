@@ -120,7 +120,7 @@ async def doc(bot, update):
 
     new_name = update.message.text
 
-    new_filename = new_name.split(":-")[0]
+    new_filename = new_name.split(":-")[1]
 
     file_path = f"downloads/{new_filename}"
 
